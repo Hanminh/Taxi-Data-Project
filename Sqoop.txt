@@ -1,0 +1,6 @@
+GRANT ALL PRIVILEGES ON <data_base_permission> to root@localhost identified by 'hadoop';
+
+Sqoop:
+	sqoop import --connect jdbc:mysql://localhost/<data_base_permission> --driver com.mysql.jdbc.Driver --table <table_name> -m 1 --username root --password hadoop (--hive-import)
+
+	

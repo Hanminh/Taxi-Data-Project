@@ -1,0 +1,29 @@
+SPARK:
+
+Resilent Distributed Data:
+	+ create an RDD :
+		spark = pyspark.sql.SparkSession.builder.appName('RDD example').getOrCreate()
+		rdd = spark.sparkContext.parallelize([<data>])
+	+ rdd.flatMap(lambda ... )
+	+ rdd.map(lambda ... )
+	+ rdd.textFile('<path>') : load an RDD object
+	+ rdd.collec() : fetch all elements
+	+ rdd.count()
+	+ rdd.first()
+	+ rdd.max()
+	+ rdd.take(<num>)
+	+ rdd.collect()
+	+ rdd.saveAsTestFile('<path>')
+
+Data Frame 
+	+ create data frame:
+		spark = ...
+		df = spark.createDataFrame(data= ..., schema= ... )
+	+ load dataframe from a file:
+		df = spark.read.format('csv').
+			option('header', 'True').
+			option('inferschema', 'True').
+			option('path', 'file::...').
+			load()
+
+

@@ -1,0 +1,11 @@
+Transformation: Minh , Hoàng
+Multi cluster and Node: 
+
+Visualize : lấy data từ Cassandra , hiển thị bằng Grafana : Việt
+
+K8S Docker ...: Luong, Thong
+    + HDFS
+    + KAFKA
+    + Cassandra
+
+Chống replication records, clean data, ...

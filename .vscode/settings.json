@@ -1,0 +1,12 @@
+{
+    "editor.scrollbar.horizontal": "auto",
+    "editor.scrollbar.horizontalScrollbarSize": 15,
+    "editor.scrollbar.vertical": "hidden",
+    "github.copilot.enable": {
+        "python": true
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+    "files.autoSaveWhenNoErrors": false,
+    "code-runner.runInTerminal": true
+}
